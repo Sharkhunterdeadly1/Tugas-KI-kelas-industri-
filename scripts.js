@@ -10,4 +10,5 @@ if (budgetInput && budgetOutput) {
     budgetInput.addEventListener('input', () => {
         budgetOutput.textContent = `Rp ${budgetInput.value} Juta`;
     });
+
 }
